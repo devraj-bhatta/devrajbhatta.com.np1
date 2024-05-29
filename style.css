@@ -1,0 +1,228 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+    margin: 20px 0px 15px 0px;
+}
+
+h4 {
+    color: rgba(0, 0, 0, 0.719);
+    line-height: 25px;
+}
+
+.icon {
+    display: inline-block;
+    font-size: 25px;
+    margin: 15px 8px 0px 8px;
+    transition: transform 0.3s ease;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+/* Hover effect for each logo */
+#linkedin_icon:hover {
+    color: #0077B5;
+}
+
+#github_icon:hover {
+    color: #181717;
+}
+
+#x_icon:hover {
+    color: #1DA1F2;
+}
+
+#facebook_icon:hover {
+    color: #1877F2;
+}
+
+#instagram_icon:hover {
+    color: #e90a27;
+}
+
+#whatsapp_icon:hover {
+    color: #25D366;
+}
+
+#viber_icon:hover {
+    color: #665CAC;
+}
+
+#phone_icon,
+#location_icon,
+#email_icon {
+    font-size: 25px;
+    color: black;
+}
+
+#first_contact {
+    height: 30px;
+    width: 60%;
+    padding: 40px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+#first_contact p {
+    display: inline;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #181717;
+}
+
+#first_contact i {
+    font-size: 30px;
+}
+
+#first_contact a {
+    text-decoration: none;
+    color: #181717;
+    font-weight: bold;
+}
+
+#first_contact .container {
+    background-color: rgba(0, 0, 0, 0.050);
+    height: 40px;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 40px;
+    width: auto;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: blue;
+}
+
+#first_background {
+    align-items: center;
+    height: 350px;
+    padding-top: 100px;
+    background: #fffffff3;
+}
+
+
+
+
+
+
+
+
+
+
+/* This is for responsive [PHONE] */
+@media (max-width:767px) {
+    * {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    body {
+        background: #4a5a75;
+    }
+
+    #first_contact .container {
+        background-color: #ffffff7a;
+    }
+
+
+    #first_contact {
+        width: 60%;
+        padding: 0px;
+        display: inline;
+        margin-left: 2px;
+    }
+
+
+    h1 {
+        font-size: 3em;
+        font-weight: bolder;
+        line-height: 55px;
+        margin-top: 50px;
+        color: rgb(0, 0, 0);
+        margin: 20px 0px 15px 0px;
+    }
+
+
+    h4 {
+        color: rgba(0, 0, 0, 0.719);
+        line-height: 20px;
+        padding: 10px;
+    }
+
+    .icon {
+        display: inline-block;
+        font-size: 25px;
+        margin: 15px 5px 0px 5px;
+        transition: transform 0.3s ease;
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+    }
+
+    .remove {
+        display: none;
+    }
+
+    #phone_icon,
+    #email_icon,
+    #location_icon {
+        font-size: 25px;
+        margin-top: 17px;
+        padding: 10px;
+    }
+
+    #first_contact p {
+        display: none;
+    }
+
+    button {
+        padding: 10px 20px;
+        margin-top: 45px;
+        width: auto;
+        font-size: 1em;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+
+
+
+}
